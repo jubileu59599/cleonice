@@ -4,10 +4,10 @@
 }
 #topo{
 	height: 70px;
-	background: orange;
+	background: black;
 }
 #menu{
-	background-color: rgba(0,0,255,0.3);
+	background-color: rgba(black);
 }
 #menu ul, li{
 	display: inline-table;
@@ -19,11 +19,11 @@
 	color: white;
 }
 #menu ul li:hover{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(orange);
 }
 #conteudo{
-	background-color: gray;
-	min-height: 70px;
+	background-color: black;
+	min-height: 50px;
 }
 #slider {
 	overflow: hidden;
