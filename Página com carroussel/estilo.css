@@ -16,14 +16,14 @@
 }
 #menu ul li a{
 	text-decoration: nome;
-	color: white;
+	color: purple;
 }
 #menu ul li:hover{
-	background-color: rgba(orange);
+	background-color: rgba(white);
 }
 #conteudo{
 	background-color: black;
-	min-height: 50px;
+	min-height: 500px;
 }
 #slider {
 	overflow: hidden;
@@ -79,8 +79,8 @@ img{
 
 .slogan-image {
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
     margin: 15px;
     border-radius: 50%;
 }
