@@ -6,7 +6,7 @@
 }
 .container h2
 {
-	background: #800080;
+	background: #993399;
 	color:#fff;
 	width: 250px;
 	font-size: 24px;
@@ -16,7 +16,7 @@
 .container h2::after
 {
 	content: '';
-	border-top: 40px solid #800080;
+	border-top: 40px solid #993399;
 	border-right: 40px solid transparent;
 	position: relative;
 	left: 48px;
