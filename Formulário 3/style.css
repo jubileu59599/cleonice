@@ -27,7 +27,7 @@ body{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("bg.jpg") no-repeat center;
+	background: url("b6bb4e867eb29ecc27caf1af4b5cb33f.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -44,7 +44,7 @@ body{
 }
 
 .left{
-	background: url("bg.jpg") no-repeat center;
+	background: url("b6bb4e867eb29ecc27caf1af4b5cb33f.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
