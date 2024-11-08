@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#topo{
+	height: 70px;
+	background: black;
+}
+#menu{
+	background-color: rgba(black);
+}
+#menu ul, li{
+	display: inline-table;
+	padding: 20px 30px;
+	cursor: pointer;
+}
+#menu ul li a{
+	text-decoration: nome;
+	color: rgb(255, 255, 255);
+}
+#menu ul li:hover{
+	background-color: rgba(white);
+}
+#conteudo{
+	background-color: black;
+	min-height: 0px;
+}
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+img{
+	max-width: 90%;
+	width: 10cm;
+	height: 12cm;
+	object-fit: contain;
+}
+
+.slogan-image {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    border-radius: 50%;
+}
